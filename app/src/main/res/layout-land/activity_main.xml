@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.av.pianokeyboard.MainActivity"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<Button
+    android:id="@+id/up_octave_btn"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:text="+ oct"/>
+
+        <Button
+            android:id="@+id/down_octave_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="- oct"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="db3"
+            android:id="@+id/db3"
+            android:tag="db3"
+            android:layout_gravity="center_horizontal"
+            android:background="#000000"
+            android:layout_marginBottom="90dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="20dp"
+            android:textColor="#fff"
+            android:layout_marginRight="30dp"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="eb3"
+            android:id="@+id/eb3"
+            android:tag="eb3"
+            android:layout_gravity="center_horizontal"
+            android:background="#000000"
+            android:layout_marginBottom="90dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="30dp"
+
+            />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="c3"
+        android:id="@+id/c3"
+        android:tag="c3"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="d3"
+        android:id="@+id/d3"
+        android:tag="d3"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="e3"
+        android:id="@+id/e3"
+        android:tag="e3"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"
+        />
+</LinearLayout>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="gb3"
+            android:id="@+id/gb3"
+            android:tag="gb3"
+            android:layout_gravity="left"
+            android:background="#000000"
+            android:layout_marginBottom="90dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="ab3"
+            android:id="@+id/ab3"
+            android:tag="ab3"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom|center_horizontal"
+            android:background="#000000"
+            android:layout_marginBottom="90dp"
+            android:paddingBottom="20dp"
+            android:textColor="#fff"
+
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="bb3"
+            android:id="@+id/bb3"
+            android:tag="bb3"
+            android:gravity="bottom|center_horizontal"
+            android:background="#000000"
+            android:layout_marginBottom="90dp"
+            android:paddingBottom="20dp"
+            android:textColor="#fff"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="f3"
+        android:id="@+id/f3"
+        android:tag="f3"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="g3"
+        android:id="@+id/g3"
+        android:tag="g3"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"/>
+
+
+
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="a3"
+        android:id="@+id/a3"
+        android:tag="a3"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp"/>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="b3"
+                android:id="@+id/b3"
+                android:tag="b3"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="20dp"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="c4"
+        android:id="@+id/c4"
+        android:tag="c4"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="20dp" />
+
+
+
+</LinearLayout>

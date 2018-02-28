@@ -1,20 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+    <GridLayout
+    android:columnCount="3"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.av.pianokeyboard.MainActivity">
+    tools:context="com.av.pianokeyboard.MainActivity"
+    android:layout_marginLeft="50dp"
+
+    >
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play a note"
-        android:id="@+id/buttonPlayNote" />
+        android:text="c3"
+        android:id="@+id/c3"
+        android:tag="c3"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play a note"
-        android:id="@+id/buttonPlayNote2" />
-</LinearLayout>
+        android:text="db3"
+        android:id="@+id/db3"
+        android:tag="db3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d3"
+        android:id="@+id/d3"
+        android:tag="d3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eb3"
+        android:id="@+id/eb3"
+        android:tag="eb3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="e3"
+        android:id="@+id/e3"
+        android:tag="e3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="f3"
+        android:id="@+id/f3"
+        android:tag="f3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gb3"
+        android:id="@+id/gb3"
+        android:tag="gb3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="g3"
+        android:id="@+id/g3"
+        android:tag="g3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ab3"
+        android:id="@+id/ab3"
+        android:tag="ab3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a3"
+        android:id="@+id/a3"
+        android:tag="a3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bb3"
+        android:id="@+id/bb3"
+        android:tag="bb3"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b3"
+        android:id="@+id/b3"
+        android:tag="b3"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c4"
+        android:id="@+id/c4"
+        android:tag="c4"
+        />
+
+
+    <Button
+        android:id="@+id/up_octave_btn"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="+ oct"/>
+
+    <Button
+        android:id="@+id/down_octave_btn"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="- oct"/>
+</GridLayout>
