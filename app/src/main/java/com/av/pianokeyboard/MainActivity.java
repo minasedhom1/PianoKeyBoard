@@ -10,7 +10,7 @@ import android.widget.Button;
 import org.billthefarmer.mididriver.MidiDriver;
 
 import java.util.HashMap;
-
+ 
 
 public class MainActivity extends AppCompatActivity implements MidiDriver.OnMidiStartListener,
         View.OnTouchListener  {
